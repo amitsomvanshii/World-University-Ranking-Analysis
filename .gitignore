@@ -1,0 +1,27 @@
+# Prerequisites
+node_modules/
+.venv/
+env/
+venv/
+ENV/
+
+# Dashboard specific
+dashboard/node_modules/
+dashboard/dist/
+dashboard/.env
+dashboard/.vscode/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Power BI / Local temp
+*.temp
+*.tmp
+*.pbix.temp
+
+# OS files
+.DS_Store
+Thumbs.db
